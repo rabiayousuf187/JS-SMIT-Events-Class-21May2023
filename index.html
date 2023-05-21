@@ -8,9 +8,12 @@
 </head>
 <body>
     <h1>JS Chapter 47-- Events</h1>
-    <button onClick="msg()">CLick Me</button>
-    <h2>Change img on Click</h2>
-    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" onClick ='src="https://imgv3.fotor.com/images/blog-cover-image/part-blurry-image.jpg"' width="500" height="500">
+    <h4>CHap : 47 Event --- Mouse</h4>
+    <p onMouseover="show('this')" onMouseout="hide()">Show me Something</p>
+    <img id="img-show" src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" style="display: none;">
+
+    <h4>CHap : 48 Event --- Feild onFocus and onBlur</h4>
+    <input id="email" type="email" onFocus="inpFeild()" onBlur="outFeild()">
     <script src="./js/script.js"></script>
 </body>
 </html>
